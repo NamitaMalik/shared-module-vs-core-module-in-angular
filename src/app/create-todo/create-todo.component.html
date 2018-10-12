@@ -1,0 +1,11 @@
+<form [formGroup]="toDoForm" (ngSubmit)="onSubmit()">
+  <label>
+    To Do:
+    <input type="text" formControlName="toDo">
+  </label>
+  <label>
+    Priority:
+    <input type="text" formControlName="priority">
+  </label>
+  <button type="submit">Submit</button>
+</form>

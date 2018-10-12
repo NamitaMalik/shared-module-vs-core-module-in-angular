@@ -1,0 +1,14 @@
+<div class="block">
+  <table border="1">
+    <thead>
+    <th>To Do</th>
+    <th>Priority</th>
+    </thead>
+    <tbody>
+    <tr *ngFor="let toDo of toDos">
+      <td>{{toDo.toDo}}</td>
+      <td>{{toDo.priority}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
