@@ -1,0 +1,5 @@
+.side-block {
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}

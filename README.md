@@ -1,27 +1,31 @@
-# SharedModuleVsCoreModuleInAngular
+# Shared Module vs Core Module
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+I was going through the Angular Style Guide in order to know how to structure my **Angular** application. 
+But I must admit that I did not get deep into the details earlier and as a result of it had a my `ApplicationModule` 
+quite bloated. But it was still not late for me to correct my mistake and fix the structure.
 
-## Development server
+In this blog I am sharing how a simple TODO application can be structured well using the concept of **Shared Module** 
+and **Core Module**.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I generated a simple to-do application using **Angular CLI** and my src structure looked like this:
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ok, now it was time to add some functionality to this generated application. So basically, I needed two components initially 
+and also a service for the data sharing purposes as given below:
 
-## Build
+1. CreateToDoComponent - For creating/adding a TODO
+2. DisplayToDoComponent - The one that displays all the TODOs
+3. ToDoService - This one was responsible for maintaining and sharing the TODOs
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Ok after writing a few lines of code, I had a basic application like this up and running:
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+Now, it was time for me to add some custom validations to the `toDoForm` that I had created for adding TODOs. Now I wanted to add a validation on `todo` field
+so that no one can enter words like eat, sleep, drink in the todo field. We have a custom validator `forbiddenTextValidator` in place.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Ok, before we add more functionality to the application it is time to beautify the app a little bit.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
