@@ -1,8 +1,8 @@
-import {Component, ViewChild} from '@angular/core';
-import {FormGroup, FormControl, Validators, FormGroupDirective} from '@angular/forms';
+import { Component, ViewChild} from '@angular/core';
+import { FormGroup, FormControl, Validators, FormGroupDirective } from '@angular/forms';
 import { ToDoService } from '../todo.service';
-import { forbiddenTextValidator } from '../forbidden-todo.directive';
-import { CustomErrorStateMatcher } from '../error-state-matcher';
+import { forbiddenTextValidator } from '../../shared/forbidden-todo.directive';
+import { CustomErrorStateMatcher } from '../../shared/error-state-matcher';
 
 @Component({
   selector: 'app-create-todo',
