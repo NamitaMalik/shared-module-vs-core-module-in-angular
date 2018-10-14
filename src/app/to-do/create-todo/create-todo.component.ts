@@ -1,4 +1,4 @@
-import { Component, ViewChild} from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { FormGroup, FormControl, Validators, FormGroupDirective } from '@angular/forms';
 import { ToDoService } from '../todo.service';
 import { forbiddenTextValidator } from '../../shared/forbidden-todo.directive';
