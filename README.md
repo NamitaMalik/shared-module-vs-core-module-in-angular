@@ -9,6 +9,8 @@ and **Core Module**.
 
 I generated a simple to-do application using **Angular CLI** and my src structure looked like this:
 
+![ToDoApp](https://raw.githubusercontent.com/NamitaMalik/shared-module-vs-core-module-in-angular/master/src/assets/images/Simple_To_Do_App_Angular_Cli.PNG)
+
 
 Ok, now it was time to add some functionality to this generated application. So basically, I needed two components initially 
 and also a service for the data sharing purposes as given below:
