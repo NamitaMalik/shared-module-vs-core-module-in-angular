@@ -11,7 +11,6 @@ I generated a simple to-do application using **Angular CLI** and my src structur
 
 ![ToDoApp](https://raw.githubusercontent.com/NamitaMalik/shared-module-vs-core-module-in-angular/master/src/assets/images/Simple_To_Do_App_Angular_Cli.PNG)
 
-
 Ok, now it was time to add some functionality to this generated application. So basically, I needed two components initially 
 and also a service for the data sharing purposes as given below:
 
@@ -21,6 +20,7 @@ and also a service for the data sharing purposes as given below:
 
 Ok after writing a few lines of code, I had a basic application like this up and running:
 
+![ToDoApp_Basic](https://raw.githubusercontent.com/NamitaMalik/shared-module-vs-core-module-in-angular/master/src/assets/images/ToDoApp_Basic.PNG)
 
 
 Now, it was time for me to add some custom validations to the `toDoForm` that I had created for adding TODOs. Now I wanted to add a validation on `todo` field
