@@ -28,9 +28,13 @@ so that no one can enter words like eat, sleep, drink in the todo field. We have
 
 Ok, before we add more functionality to the application it is time to beautify the app a little bit. So we are using angular material for this purpose and now our app looks a bit better:
 
+![ToApp_WithMaterial](https://raw.githubusercontent.com/NamitaMalik/shared-module-vs-core-module-in-angular/master/src/assets/images/App_After_Material.PNG)
 
-But now if we have look at our folder structure and **AppModule**, it seems it has grown a lot and this is when we just have a very basic **ToDo** app. So now its time to fix this tiny 
-mess which will grow along with our application if not fixed. So let's do it.
+But now if we have look at our folder structure and **AppModule**, it seems it has grown a lot and this is when we just have a very basic **ToDo** app. 
+
+![AppModule](https://raw.githubusercontent.com/NamitaMalik/shared-module-vs-core-module-in-angular/master/src/assets/images/AppModule_bloated.PNG)
+
+So now its time to fix this tiny mess which will grow along with our application if not fixed. So let's do it.
 
 We need to 3 modules to fix everything:
 
